@@ -36,7 +36,7 @@ func clearTerminal() {
 // Display the banner
 func displayBanner() {
 	fmt.Printf("%s===============================\n", GREEN)
-	fmt.Println("          Parixa            ")
+	fmt.Println("          SecureScan            ")
 	fmt.Println("      made by Mansi Singh   ")
 	fmt.Printf("===============================\n%s\n", RESET)
 }
@@ -237,3 +237,4 @@ func main() {
 	}
 	fmt.Println(strings.Repeat("=", 35))
 }
+
